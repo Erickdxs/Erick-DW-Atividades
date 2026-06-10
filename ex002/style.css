@@ -1,0 +1,28 @@
+p{
+    border: 1px 
+    solid black;
+    margin: 20px;
+    
+}
+h1{
+    border: 1px solid black;
+    height: 10%;
+    width: 25%;
+    margin: 20px;
+
+}
+
+a{
+    border: 1px solid black;
+    color: black;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px;
+    width: 12%;
+
+}
+a:hover{
+    background-color: sandybrown;
+    color: aliceblue;
+}
