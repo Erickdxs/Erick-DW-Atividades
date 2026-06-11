@@ -1,0 +1,21 @@
+div{
+    display: flex;
+    width: 50px;
+    height: 100px;
+    gap: 10px;
+}
+div a{
+    display: flex;
+    height: 200px;
+    gap: 10px;
+}
+.videos{
+    display: flex;
+    width: 50%;
+    height: 50vh;
+
+}
+video{
+    width: 100%;
+    display: flex;
+}

@@ -1,0 +1,18 @@
+body{
+    background-color: rgba(105, 160, 18, 0.432);
+}
+section{
+    display: flex;
+    border: 1px solid black;
+    background: url(microsoftteams-image-2021-12-30t152901.243.webp) no-repeat top center/cover;
+}
+main{
+    display: flex;
+    border: 1px solid black;
+    height: 80vh;
+    margin: 0 auto;
+    width: 70%;
+    background-color: aliceblue;
+    border-bottom: 10px;
+    text-align: center;
+}

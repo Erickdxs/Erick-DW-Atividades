@@ -1,0 +1,52 @@
+h1{
+    display: flex;
+    justify-content: center;
+    color: sienna;
+    font-size: 50px;
+    font-family: 'poppins',sans-serif;
+
+}
+
+.titulosiniciais{
+    display: flex;
+    background-color: rgb(110, 65, 65);
+    font-size: 30px;
+    justify-content: left;
+    width: 25%;
+    color: azure;
+    
+}
+
+a{
+    display: flex;
+    gap: 30px;
+    padding: auto;
+
+}
+a :hover{
+    color: gray;
+}
+
+
+video{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+}
+
+iframe{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+}
+footer a{
+    display: flex;
+    justify-content: left;
+    gap: 40px;
+}
+
+footer h2{
+    display: flex;
+    justify-content: left
+    
+}
