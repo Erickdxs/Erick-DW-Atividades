@@ -1,18 +1,47 @@
 body{
     background-color: rgba(105, 160, 18, 0.432);
 }
-section{
-    display: flex;
-    border: 1px solid black;
-    background: url(microsoftteams-image-2021-12-30t152901.243.webp) no-repeat top center/cover;
-}
 main{
     display: flex;
+    flex-direction: column;
     border: 1px solid black;
-    height: 80vh;
-    margin: 0 auto;
-    width: 70%;
     background-color: aliceblue;
-    border-bottom: 10px;
+    height: 890px;
+    width: 900px;
+    margin-top: 20px;
+    margin: 0 auto;
+    align-items: center;
+
+}
+section{
+    background: url(receita-de-waffles.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px black;
+    height: 40vh;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3px;
+    border-radius: 10px;
+    align-items: center;
+}
+ul, ol{
+    width: 90%;
+    padding-left: 20px;
+    align-self: flex-start;
+}
+p{
+    width: 90%;
+    padding-left: 4px;
+    align-self: flex-start;
+}
+.textoimage{
+    margin-left: 70%;
+}
+h3{
     text-align: center;
+}
+i{
+    color: red;
 }

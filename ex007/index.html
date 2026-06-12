@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="" onsubmit="return Cadastro()">
+
+        <fieldset>
+            
+            <legend>Cadastro de Usuário</legend>
+            
+            <p>
+                <label for="">Primeiro Nome</label>
+                <input type="text" id="pNome">
+            </p>
+
+            <p>
+                <label for="">Último Nome</label>
+                <input type="text" name="" id="uNome" required>
+            </p>
+
+            <p>
+                <label for="">Senha</label>
+                <input type="password" name="" id="" required>
+            </p>
+
+            <p>
+                <label for="">Sexo:</label>
+                <input type="radio" name="sexo" id="masc" required>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="sexo" id="femi" required>
+                <label for="femi">Feminino</label>
+                
+            </p>
+
+            <p>
+                <label for="">Possui alguma deficiência?</label>
+            </p>
+
+            <p>
+                <input type="checkbox" name="" id="Visão" value="Visão">
+                <label for="visao">Visão</label>
+                <input type="checkbox" name="" id="Audição" value="Audição">
+                <label for="audicao">Audição</label>
+                <input type="checkbox" name="" id="Fala" value="Fala">
+                <label for="fala">Fala</label>
+                <input type="checkbox" name="" id="" value="Não">
+                <label for="">Não</label>
+            </p>
+
+            <p>
+                <label for="">Data de Nascimento</label>
+                <input type="date">
+            </p>
+
+            <p>
+                <label for="">Foto de Perfil</label>
+                <input type="file" name="" id="">
+            </p>
+
+            <p>
+                <label for="">E-mail</label>
+                <input type="email" name="" id="">
+            </p>
+
+            <p>
+                <label for="">Dúvidas</label>
+                <textarea name="" id="" cols="" rows="" placeholder=""></textarea>
+            </p>
+
+            <p>
+                <label for="">Raça</label>
+
+                <select name="" id="">
+
+                    <option value="">Pardo</option>
+                    <option value="">Negro</option>
+                    <option value="">Branco</option>
+                    <option value="">Indígena</option>
+
+                </select>
+            </p>
+
+            <input type="submit" value="Enviar">
+
+        </fieldset>
+
+    </form>
+    <div id="resultado"></div>
+    <script src="script.js"></script>
+</body>
+</html>
