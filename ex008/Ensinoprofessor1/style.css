@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font:white;
+    --bgMenu:grey;
+    --bgBody:#f1f1f1;
+    --btnHover:#aaa;
+}
+.claro{
+
+    --font:rgb(17, 17, 16);
+    --bgMenu:rgb(8, 29, 212);
+    --bgBody:#85076988;
+    --btnHover:#c91717;
+}
+
+label[for="btnMenu"] {
+    display: none;
+    flex: 1;
+    height: 50px;
+    width: 100%;
+    background-color: var(--bgMenu);
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    color: var(--font);
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--bgMenu)
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--font);
+    padding: 16px;
+    min-width: 120px;
+    text-align: center;
+    border: 1px solid red;
+    flex:1;
+}
+nav a:Hover{
+    background-color: var(--btnHover);
+
+}
+.row{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.col25{
+    width: 25%;
+}
+.col75{
+    width: 75%;
+}
+
+input[type='text'], input[type='email'], textarea{
+    border-radius: 4px;
+    border: 1px solid var(--bgMenu);
+    width: 100%;
+    padding: 12px;
+}
+
+textarea{
+    height: 200px;
+}
+#teste{
+    display: flex;
+    border: 1px solid red;
+    justify-content:center;
+}
+#test div{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+}
+@media (max-width:800px) {
+    
+    label[for="btnMenu"] {
+    display: block;
+    flex: 1;
+    display: flex;
+    }
+
+
+    .active{
+    display: flex;
+    }
+
+    nav{
+        display: none;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .col25, .col75{
+        width: 100%;
+    }
+}
