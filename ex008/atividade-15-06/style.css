@@ -1,16 +1,184 @@
 body{
     background-color: rgb(206, 206, 206);
 }
-header{
+.header1{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
     background-color: aliceblue;
-    border: 1px solid black;
-    height: 100px;
+    align-items: center;
+    height: 12vh;
     width: 100%;
 }
-p{
+.header1 p{
     margin-top: -10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+nav a{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: rgb(216, 216, 216);
+    text-decoration: none;
+}
+.sc1{
+    display: flex;
+    
+}
+.sessao1{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    margin-top: 10px;
+    width: 65%;
+    margin-right: 10px;
+}
+.imgs1{
+    background-color: rgb(114, 114, 114);
+    height: 5vh;
+    width: 99%;
+    margin: 0 auto;
+}
+.sobremim{
+    background-color: aliceblue;
+    width: 35%;
+    height: 20vh;
+    margin-top: 10px;
+
+
+}
+.imgsbr{
+    background-color: grey;
+    height: 10vh;
+    width: 99%;
+    margin: 0 auto;
+}
+.sc2{
+    display: flex;
+}
+.sessao2{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    margin-top: 10px;
+    width: 65%;
+    margin-right: 10px;
+    height: 25vh;
+}
+.imgs2{
+    background-color: grey;
+    height: 5vh;
+    width: 99%;
+    margin: 0 auto;
+}
+.postagem{
+    background-color: aliceblue;
+    width: 35%;
+    margin-top: -15px;
+    height: 30vh;
+}
+.imgpst{
+    background-color: grey;
+    height: 10vh;
+    width: 99%;
+    margin: 0 auto;
+}
+.imgpst2{
+    background-color: grey;
+    height: 10vh;
+    width: 99%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.sc3{
+    display: flex;
+}
+.sessao3{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    width: 65%;
+    margin-top: -8px;
+    margin-right: 10px;
+}
+.row{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.lbl{
+    width: 25%;
+    margin-left: 5px;
+}
+.inp{
+    width: 75%;
+}
+input[type='text'], input[type='email'], textarea{
+    border-radius: 4px;
+    border: 1px solid black;
+    width: 95%;
+    padding: 10px;
+}
+.redes{
+    background-color: aliceblue;
+    width: 35%;
+    margin-top: 10px;
+    height: 10vh;
+}
+footer{
+    background-color: aliceblue;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.texto{
+    margin-left: 5px;
+}
+
+@media (max-width: 800px){
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    nav a{
+        border: 1px solid white;
+        padding: 10px;
+    }
+    nav{
+        flex-direction: column;
+        padding: 10px;
+        border: 1px solid white;
+    }
+    .lbl, .inp{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-right: 15px;
+    }
+    .sc1, .sc2, .sc3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sessao1, .sessao2, .sessao3{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .sobremim, .postagem, .redes{
+        width: 100%;
+        margin-top: 10px;
+        margin-left: -10px;
+    }
+    
 }
